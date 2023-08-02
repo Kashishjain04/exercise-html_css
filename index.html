@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<link rel="shortcut icon" href="Assets/CSS/assets/mini_logo.png" type="image/x-icon" />
+		<link rel="stylesheet" href="styles.css" />
+		<title>Google Search</title>
+	</head>
+	<body class="flex flex-col">
+		<nav class="flex desktop">
+			<div class="flex nav_section">
+				<p class="nav_item">About</p>
+				<p class="nav_item">Store</p>
+			</div>
+			<div class="flex nav_section">
+				<p class="nav_item">Gmail</p>
+				<p class="nav_item">Images</p>
+				<img class="nav_item" src="Assets/CSS/assets/menu.svg" alt="menu_icon" />
+				<button class="nav_item">Sign In</button>
+			</div>
+		</nav>
+		<nav class="flex mobile">
+			<div class="flex nav_section">
+				<p class="nav_item active">All</p>
+				<p class="nav_item">Images</p>
+			</div>
+			<div class="flex nav_section">
+				<img class="nav_item" src="Assets/CSS/assets/menu.svg" alt="menu_icon" />
+				<button class="nav_item">Sign In</button>
+			</div>
+		</nav>
+		<main class="flex flex-col">
+			<img class="logo" src="Assets/CSS/assets/logo.png" alt="google_logo" />
+			<form action="https://www.google.com/search" method="get">
+				<div class="flex search_container">
+					<img class="icon" src="Assets/CSS/assets/search.svg" alt="search_icon" />
+					<input name="q" type="text" class="search" />
+					<img class="icon" src="Assets/CSS/assets/mic.svg" alt="mic_icon" />
+					<img class="icon" src="Assets/CSS/assets/cam.svg" alt="cam_icon" />
+				</div>
+				<div class="flex button_container">
+					<button type="submit">Google Search</button>
+					<button type="button">I'm Feeling Lucky</button>
+				</div>
+			</form>
+			<div class="trending">
+				<div class="heading flex">
+					<h5>Trending searches</h5>
+          <img src="Assets/CSS/assets/more.svg" alt="more_icon">
+				</div>
+        <div class="row flex">
+          <img src="Assets/CSS/assets/trending.svg" alt="trending_icon">
+          <p>walmart black friday deals</p>
+        </div>
+        <div class="row flex">
+          <img src="Assets/CSS/assets/trending.svg" alt="trending_icon">
+          <p>british radio host tim gough</p>
+        </div>
+        <div class="row flex">
+          <img src="Assets/CSS/assets/trending.svg" alt="trending_icon">
+          <p>adin ross nle choppa</p>
+        </div>
+        <div class="row flex">
+          <img src="Assets/CSS/assets/trending.svg" alt="trending_icon">
+          <p>erling haaland injury</p>
+        </div>
+        <div class="row flex">
+          <img src="Assets/CSS/assets/trending.svg" alt="trending_icon">
+          <p>taylor swift 2022</p>
+        </div>
+        <div class="row flex">
+          <img src="Assets/CSS/assets/trending.svg" alt="trending_icon">
+          <p>social security benifits cola 2023</p>
+        </div>
+			</div>
+		</main>
+		<footer>
+			<div class="footer_up flex">
+				<img src="Assets/CSS/assets/carbon.png" alt="carbon" class="carbon_img" />
+				<p>Carbon neutral since 2007</p>
+			</div>
+			<div class="desktop footer_down flex">
+				<div class="flex">
+					<p class="footer_link">Advertising</p>
+					<p class="footer_link">Business</p>
+					<p class="footer_link">How Search Works</p>
+				</div>
+				<div class="flex">
+					<p class="footer_link">Privacy</p>
+					<p class="footer_link">Terms</p>
+					<p class="footer_link">Settings</p>
+				</div>
+			</div>
+      <div class="mobile footer_down">
+				<div class="flex">
+					<p class="footer_link">Dark theme: off</p>
+					<p class="footer_link">Settings</p>
+					<p class="footer_link">Privacy</p>
+					<p class="footer_link">Terms</p>
+				</div>
+				<div class="flex">
+					<p class="footer_link">Advertising</p>
+					<p class="footer_link">Business</p>
+					<p class="footer_link">About</p>
+				</div>
+			</div>
+		</footer>
+	</body>
+</html>
