@@ -1,0 +1,244 @@
+#menu:target {
+  display: block;
+}
+
+#menu:target ~ a.nav_item {
+  cursor: pointer;
+  background-color: #a4a3a5;
+}
+
+a.menu_close {
+  display: none;
+}
+
+#menu:target ~ a.menu_open {
+  display: none;
+}
+
+#menu:target ~ a.menu_close {
+  display: block;
+}
+
+.menu {
+  display: none;
+	width: 100vw;
+	position: absolute;
+	bottom: -10px;
+	right: -2vw;
+	transform: translateY(100%);
+	background-color: #d1d5dc;
+	border-radius: 20px;
+	padding: 0.6rem;
+}
+
+.menu_inner {
+	padding: 0.5rem;
+	max-height: 85vh;
+	overflow-y: scroll;
+	border-radius: 15px;
+	background-color: #f8fafd;
+	display: grid;
+	place-items: center;
+	grid-template-columns: repeat(3, 1fr);
+}
+
+.menu_item {
+	margin: 0.5rem;
+	text-align: center;
+}
+
+.menu_item .image {
+	width: 53px;
+	height: 53px;
+	margin: auto;
+	margin-bottom: 4px;
+}
+
+.menu_item:nth-of-type(1) .image {
+  background: url("Assets/CSS/assets/sprites.png") 0 0;
+  background-size: cover;
+}
+.menu_item:nth-of-type(2) .image {
+  background: url("Assets/CSS/assets/sprites.png") 0 calc(calc(2 - 1) * -55px);
+  background-size: cover;
+}
+.menu_item:nth-of-type(3) .image {
+  background: url("Assets/CSS/assets/sprites.png") 0 calc(calc(3 - 1) * -55px);
+  background-size: cover;
+}
+.menu_item:nth-of-type(4) .image {
+  background: url("Assets/CSS/assets/sprites.png") 0 calc(calc(4 - 1) * -56px);
+  background-size: cover;
+}
+.menu_item:nth-of-type(5) .image {
+  background: url("Assets/CSS/assets/sprites.png") 0 calc(calc(5 - 1) * -56px);
+  background-size: cover;
+}
+.menu_item:nth-of-type(6) .image {
+  background: url("Assets/CSS/assets/sprites.png") 0 calc(calc(6 - 1) * -56px);
+  background-size: cover;
+}
+.menu_item:nth-of-type(7) .image {
+  background: url("Assets/CSS/assets/sprites.png") 0 calc(calc(7 - 1) * -56px);
+  background-size: cover;
+}
+.menu_item:nth-of-type(8) .image {
+  background: url("Assets/CSS/assets/sprites.png") 0 calc(calc(8 - 1) * -57px);
+  background-size: cover;
+}
+.menu_item:nth-of-type(9) .image {
+  background: url("Assets/CSS/assets/sprites.png") 0 calc(calc(9 - 1) * -57px);
+  background-size: cover;
+}
+.menu_item:nth-of-type(10) .image {
+  background: url("Assets/CSS/assets/sprites.png") 0 calc(calc(10 - 1) * -57px);
+  background-size: cover;
+}
+.menu_item:nth-of-type(11) .image {
+  background: url("Assets/CSS/assets/sprites.png") 0 calc(calc(11 - 1) * -57px);
+  background-size: cover;
+}
+.menu_item:nth-of-type(12) .image {
+  background: url("Assets/CSS/assets/sprites.png") 0 calc(calc(12 - 1) * -57px);
+  background-size: cover;
+}
+.menu_item:nth-of-type(13) .image {
+  background: url("Assets/CSS/assets/sprites.png") 0 calc(calc(13 - 1) * -57px);
+  background-size: cover;
+}
+.menu_item:nth-of-type(14) .image {
+  background: url("Assets/CSS/assets/sprites.png") 0 calc(calc(14 - 1) * -57px);
+  background-size: cover;
+}
+.menu_item:nth-of-type(15) .image {
+  background: url("Assets/CSS/assets/sprites.png") 0 calc(calc(15 - 1) * -57px);
+  background-size: cover;
+}
+.menu_item:nth-of-type(16) .image {
+  background: url("Assets/CSS/assets/sprites.png") 0 calc(calc(16 - 1) * -57px);
+  background-size: cover;
+}
+.menu_item:nth-of-type(17) .image {
+  background: url("Assets/CSS/assets/sprites.png") 0 calc(calc(17 - 1) * -57px);
+  background-size: cover;
+}
+.menu_item:nth-of-type(18) .image {
+  background: url("Assets/CSS/assets/sprites.png") 0 calc(calc(18 - 1) * -57px);
+  background-size: cover;
+}
+.menu_item:nth-of-type(19) .image {
+  background: url("Assets/CSS/assets/sprites.png") 0 calc(calc(19 - 1) * -57px);
+  background-size: cover;
+}
+.menu_item:nth-of-type(20) .image {
+  background: url("Assets/CSS/assets/sprites.png") 0 calc(calc(20 - 1) * -57px);
+  background-size: cover;
+}
+.menu_item:nth-of-type(21) .image {
+  background: url("Assets/CSS/assets/sprites.png") 0 calc(calc(21 - 1) * -57px);
+  background-size: cover;
+}
+.menu_item:nth-of-type(22) .image {
+  background: url("Assets/CSS/assets/sprites.png") 0 calc(calc(22 - 1) * -57px);
+  background-size: cover;
+}
+.menu_item:nth-of-type(23) .image {
+  background: url("Assets/CSS/assets/sprites.png") 0 calc(calc(23 - 1) * -57px);
+  background-size: cover;
+}
+.menu_item:nth-of-type(24) .image {
+  background: url("Assets/CSS/assets/sprites.png") 0 calc(calc(24 - 1) * -57px);
+  background-size: cover;
+}
+.menu_item:nth-of-type(25) .image {
+  background: url("Assets/CSS/assets/sprites.png") 0 calc(calc(25 - 1) * -57px);
+  background-size: cover;
+}
+.menu_item:nth-of-type(26) .image {
+  background: url("Assets/CSS/assets/sprites.png") 0 calc(calc(26 - 1) * -57px);
+  background-size: cover;
+}
+.menu_item:nth-of-type(27) .image {
+  background: url("Assets/CSS/assets/sprites.png") 0 calc(calc(27 - 1) * -57px);
+  background-size: cover;
+}
+.menu_item:nth-of-type(28) .image {
+  background: url("Assets/CSS/assets/sprites.png") 0 calc(calc(28 - 1) * -57px);
+  background-size: cover;
+}
+.menu_item:nth-of-type(29) .image {
+  background: url("Assets/CSS/assets/sprites.png") 0 calc(calc(29 - 1) * -57px);
+  background-size: cover;
+}
+.menu_item:nth-of-type(30) .image {
+  background: url("Assets/CSS/assets/sprites.png") 0 calc(calc(30 - 1) * -57px);
+  background-size: cover;
+}
+.menu_item:nth-of-type(31) .image {
+  background: url("Assets/CSS/assets/sprites.png") 0 calc(calc(31 - 1) * -57px);
+  background-size: cover;
+}
+.menu_item:nth-of-type(32) .image {
+  background: url("Assets/CSS/assets/sprites.png") 0 calc(calc(32 - 1) * -57px);
+  background-size: cover;
+}
+.menu_item:nth-of-type(33) .image {
+  background: url("Assets/CSS/assets/sprites.png") 0 calc(calc(33 - 1) * -57px);
+  background-size: cover;
+}
+.menu_item:nth-of-type(34) .image {
+  background: url("Assets/CSS/assets/sprites.png") 0 calc(calc(34 - 1) * -57px);
+  background-size: cover;
+}
+.menu_item:nth-of-type(35) .image {
+  background: url("Assets/CSS/assets/sprites.png") 0 calc(calc(35 - 1) * -57px);
+  background-size: cover;
+}
+.menu_item:nth-of-type(36) .image {
+  background: url("Assets/CSS/assets/sprites.png") 0 calc(calc(36 - 1) * -57px);
+  background-size: cover;
+}
+.menu_item:nth-of-type(37) .image {
+  background: url("Assets/CSS/assets/sprites.png") 0 calc(calc(37 - 1) * -57px);
+  background-size: cover;
+}
+.menu_item:nth-of-type(38) .image {
+  background: url("Assets/CSS/assets/sprites.png") 0 calc(calc(38 - 1) * -57px);
+  background-size: cover;
+}
+.menu_item:nth-of-type(39) .image {
+  background: url("Assets/CSS/assets/sprites.png") 0 calc(calc(39 - 1) * -57px);
+  background-size: cover;
+}
+.menu_item:nth-of-type(40) .image {
+  background: url("Assets/CSS/assets/sprites.png") 0 calc(calc(40 - 1) * -57px);
+  background-size: cover;
+}
+.menu_item:nth-of-type(41) .image {
+  background: url("Assets/CSS/assets/sprites.png") 0 calc(calc(41 - 1) * -57px);
+  background-size: cover;
+}
+.menu_item:nth-of-type(42) .image {
+  background: url("Assets/CSS/assets/sprites.png") 0 calc(calc(42 - 1) * -57px);
+  background-size: cover;
+}
+.menu_item:nth-of-type(43) .image {
+  background: url("Assets/CSS/assets/sprites.png") 0 calc(calc(43 - 1) * -57px);
+  background-size: cover;
+}
+.menu_item:nth-of-type(44) .image {
+  background: url("Assets/CSS/assets/sprites.png") 0 calc(calc(44 - 1) * -57px);
+  background-size: cover;
+}
+.menu_item:nth-of-type(45) .image {
+  background: url("Assets/CSS/assets/sprites.png") 0 calc(calc(45 - 1) * -57px);
+  background-size: cover;
+}
+.menu_item:nth-of-type(46) .image {
+  background: url("Assets/CSS/assets/sprites.png") 0 calc(calc(46 - 1) * -57px);
+  background-size: cover;
+}
+.menu_item:nth-of-type(47) .image {
+  background: url("Assets/CSS/assets/sprites.png") 0 calc(calc(47 - 1) * -57px);
+  background-size: cover;
+}
